@@ -245,8 +245,8 @@ xxx040 :: 10 12 cc e0 90 13 03 29 d4 26 25 b2 24 f0 18 22
     }
 */
     // Grab a pointer to a unsigned short
-    uint8_t* ptr_move_8 = &(Array_uint8[47]);
-    *ptr_move_8 = Array_uint8[15];
+    uint16_t* ptr_move_8 = &(Array_uint16[8]);
+    *ptr_move_8 = Array_uint16[16];
     printMemContent();
     printf("\n");
 
